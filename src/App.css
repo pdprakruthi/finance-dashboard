@@ -1,0 +1,48 @@
+/* DASHBOARD HOME */
+
+.dashboard-home {
+  padding: 20px;
+}
+
+.dashboard-home h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+/* TIP BOX */
+.welcome-box {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+/* QUICK ACTIONS */
+.quick-actions {
+  margin-top: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.actions button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  transform: scale(1.05);
+}
